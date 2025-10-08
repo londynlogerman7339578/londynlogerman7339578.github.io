@@ -50,8 +50,17 @@ createPlatform(200, 150, 200, 20);
 
 
     // TODO 3 - Create Collectables
+    // Creates a 'grace' collectable at position (200, 100)
+createCollectable("grace", 200, 100);
 
+// Creates a 'kennedi' collectable at position (450, 300)
+createCollectable("kennedi", 450, 300); 
 
+// Creates another 'diamond' collectable at a new position (50, 50)
+createCollectable("diamond", 50, 50);
+
+// Creates another 'grace' collectable to create a trail effect (200, 150)
+createCollectable("grace", 200, 150);
 
     
     // TODO 4 - Create Cannons
