@@ -64,7 +64,14 @@ createCollectable("grace", 200, 150);
 
     
     // TODO 4 - Create Cannons
+// Creates a cannon on the left side, halfway down, firing every 2000 milliseconds (2 seconds)
+createCannon("left", 50, 2000);
 
+// Creates a cannon on the top side, a quarter of the way across, firing every 1000 milliseconds (1 second)
+createCannon("top", 25, 1000);
+
+// Creates a cannon on the right side, near the bottom, firing every 3000 milliseconds (3 seconds)
+createCannon("right", 80, 3000);
 
     
     
