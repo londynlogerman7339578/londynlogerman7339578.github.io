@@ -22,6 +22,9 @@ $(function () {
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
 
+    // Creates a cannon on the left side, 200 units down, that fires every 2 seconds.
+createCannon("left", 200, 2000);
+
     //////////////////////////////////
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
